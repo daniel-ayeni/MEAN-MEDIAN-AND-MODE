@@ -2,19 +2,15 @@
 'import' ceil for use in the 'median' method
 '''
 
-
 from math import ceil
-
 
 '''
 # inputted_value = Values inputted from the user.
 # total_inputted_value = Counting the number of values inputted by the user.
 '''
 
-
 inputted_value = input("Enter values: ")
 total_inputted_value = len(inputted_value)
-
 
 ''' 
 # 'mean' method created to calculate average from the sum of the values from the user.
@@ -104,7 +100,7 @@ def mode():
 
 
 '''
-# 'statistics' method is defined to call all the methods created at once and print the 'total_inputted_value'.
+# 'statistics' function is defined to call all the methods created at once and print the 'total_inputted_value'.
 '''
 
 
@@ -113,6 +109,7 @@ def statistics():
     median()
     mode()
     print('The total number of value inputted is:', str(total_inputted_value))
+
 
 # 'statistics' method is called here
 statistics()
